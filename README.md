@@ -1,127 +1,45 @@
-# edoc-echanneling
-![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(1).png)
+# Invigorix - Your Personal Health Companion
 
-Simple web project that made for e-channeling.
-This project helps a certain medical establishment such as a clinic or a hospital clients/patients to request an appointment with a doctor online. This project can also help doctors to manage the schedules of their appointments with their patients. This doctor's appointment system will organize the schedules of each patient's appointment, which will be submitted as a request to the doctor they have selected. The system has 3 sides which are the administrator, the doctor, and the patient. The system admin will populate the list of the doctors with their specialties and along with the doctor's details and system credentials. The patients will browse the doctor's appointment system website to find a doctor that has the specialty of their needs. The patient can check the doctor's weekly schedule to help them to choose the day and time which they can comply for the appointment and they will submit their request for an appointment. After that, the doctors can view all their appointments and the appointment request of the patients for their availability.
+![Invigorix Banner](https://via.placeholder.com/1200x400?text=Invigorix)
 
-  1.Admin
-  
-  
-    Admin can add doctors,edit doctors, delete doctors;
-    
-    Schedule new doctors sessions,remove sessions;
-    
-    View patients details;
-    
-    View booking of patients;
-    
-    
-![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(3).png)
-    
- 
- 
-  2.Doctors
-  
-  
-    View their Appointment;
-    
-    view their scheduled sessions;
-    
-    view details of patients;
-    
-    delete account;
-    
-    edit account settings;
-    
-![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(9).png)
-    
-  3.Patiens(Clients)
-  
-  
-    make appointment online;
-    
-    create accounts themslves;
-    
-    view their old booking;
-    
-    delete account;
-    
-    edit account settings;
-    
-    
-![](https://github.com/hshnudr/edoc-echanneling/blob/main/Screenshots/Screenshot%20(6).png)  
-    
-If you are Admin,doctor or patient ,only have one page to login :)
+## 📖 About Invigorix
+Invigorix is a health and wellness app designed to help users track, manage, and improve their well-being. With powerful features like activity tracking, nutrition monitoring, personalized health insights, and goal setting, Invigorix empowers users to take control of their fitness journey.
 
-  
------------------------------------------------
+## 🚀 Features
+- **Health Tracking**: Monitor daily steps, calories burned, and activity levels.
+- **Nutrition Insights**: Log meals, track macronutrients, and get dietary recommendations.
+- **Personalized Goals**: Set fitness and wellness goals tailored to your lifestyle.
+- **Progress Analytics**: Visualize trends with intuitive charts and reports.
+- **Reminders & Notifications**: Stay on top of workouts, hydration, and medication schedules.
+- **Data Privacy & Security**: Your health data is securely stored and never shared without consent.
 
+## 🛠️ Tech Stack
+- **Frontend**: React Native / Flutter (Specify if applicable)
+- **Backend**: Node.js / Firebase / Django (Specify if applicable)
+- **Database**: PostgreSQL / MongoDB / Firebase Firestore (Specify if applicable)
+- **Authentication**: OAuth / Firebase Auth / Custom JWT (Specify if applicable)
 
-# HOW TO GET STARTED
+## 📸 Screenshots
+> Add relevant screenshots or GIFs of the app in action.
 
-Open your XAMPP Control Panel and start Apache and MySQL.
+## 📦 Installation & Setup
+```sh
+# Clone the repository
+git clone https://github.com/yourusername/invigorix.git
+cd invigorix
 
-Extract the downloaded source code zip file.
+# Install dependencies
+npm install  # or yarn install
 
-Copy the extracted source code folder and paste it into the XAMPP's "htdocs" directory.
+# Start the development server
+npm start  # or yarn start
+```
 
-Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
+## 🤝 Contributing
+We welcome contributions! Please check out our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-Create a new database naming edoc.
+## 📝 License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
-Import the provided SQL file. The file is known as DATABASE edoc.sql located inside the source code root folder.
-
-Browse the Doctor's Appointment Systsem in a browser. i.e. http://localhost/edoc-echanneling-main/.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-DATABASE NAME: 'edoc'
-
-# BUILDIN USER ACCOUNTS OF THIS PROJECT
-
-ADMIN EMAIL:		admin@edoc.com
-
-ADMNIN PASSWORD:	123
-
-
-DOCTOR EMAIL:		doctor@edoc.com
-
-DOCTOR PASSWORD:	123
-
-
-PATIENT EMAIL:		patient@edoc.com
-
-PATIENT PASSWORD:	123
-
-
-
-
-
----------------------------------------
-# The Project was developed using the following:
-
-Apache Version: 	2.4.39
-
-PHP Version: 		7.3.5
-
-Server Software: 	Apache/2.4.39 (Win64) PHP/7.3.5
-
-MySQL Version: 		5.7.26
-
-Also available in sourcecodester.com : https://www.sourcecodester.com/hashenudara/simple-doctors-appointment-project.html
-
-Demo video: https://youtu.be/mAWHYAHmit4
-
-
-
+---
+💡 *Stay fit. Stay healthy. Stay Invigorix!*
